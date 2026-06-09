@@ -1,0 +1,44 @@
+{
+  "tour": "Festival Summer 2026",
+  "calendarName": "In Between Days — Festival Summer 2026",
+  "shows": [
+    {
+      "date": "2026-06-12T19:00:00Z",
+      "city": "Nickelsdorf", "country": "AT",
+      "venue": "Nova Rock Festival",
+      "ticketStatus": "onsale",
+      "ticketUrl": "https://www.novarock.at/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-14T19:00:00Z",
+      "city": "Florence", "country": "IT",
+      "venue": "Firenze Rocks",
+      "ticketStatus": "onsale",
+      "ticketUrl": "https://www.firenzerocks.it/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-07T19:00:00Z",
+      "city": "Porto", "country": "PT",
+      "venue": "North Festival",
+      "ticketStatus": "none",
+      "ticketUrl": "",
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/...",
+        "main": [
+          {"name": "Alone"}, {"name": "Pictures of You"}, {"name": "A Fragile Thing"},
+          {"name": "High"}, {"name": "A Night Like This"}, {"name": "Lovesong"},
+          {"name": "And Nothing Is Forever"}, {"name": "Burn"},
+          {"name": "Fascination Street"},
+          {"name": "Disintegration", "info": "first time since 2011"}
+        ],
+        "encore": [
+          {"name": "Plainsong"}, {"name": "Just Like Heaven"}, {"name": "In Between Days"},
+          {"name": "Friday I'm in Love"}, {"name": "A Forest"}, {"name": "Boys Don't Cry"}
+        ]
+      }
+    }
+  ]
+}
