@@ -4,41 +4,293 @@
   "shows": [
     {
       "date": "2026-06-12T19:00:00Z",
-      "city": "Nickelsdorf", "country": "AT",
+      "city": "Nickelsdorf",
+      "country": "AT",
       "venue": "Nova Rock Festival",
       "ticketStatus": "onsale",
+      "ticketProvider": "festival",
       "ticketUrl": "https://www.novarock.at/",
       "livestream": ""
     },
     {
       "date": "2026-06-14T19:00:00Z",
-      "city": "Florence", "country": "IT",
+      "city": "Florence",
+      "country": "IT",
       "venue": "Firenze Rocks",
       "ticketStatus": "onsale",
+      "ticketProvider": "festival",
       "ticketUrl": "https://www.firenzerocks.it/",
       "livestream": ""
     },
     {
-      "date": "2026-06-07T19:00:00Z",
-      "city": "Porto", "country": "PT",
-      "venue": "North Festival",
-      "ticketStatus": "none",
+      "date": "2026-06-20T19:00:00Z",
+      "city": "Landgraaf",
+      "country": "NL",
+      "venue": "Pinkpop",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.pinkpop.nl/en/tickets/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-21T19:00:00Z",
+      "city": "Newport",
+      "country": "UK",
+      "venue": "Isle of Wight Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://isleofwightfestival.com/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-24T19:00:00Z",
+      "city": "Cardiff",
+      "country": "UK",
+      "venue": "Blackweir Fields",
+      "ticketStatus": "onsale",
+      "ticketProvider": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.co.uk/event/1F006348C8B487DA",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-26T19:00:00Z",
+      "city": "Dublin",
+      "country": "IE",
+      "venue": "Marlay Park",
+      "ticketStatus": "soldout",
+      "ticketProvider": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.ie/artist/915776?venueId=198168",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-28T19:00:00Z",
+      "city": "Belfast",
+      "country": "UK",
+      "venue": "Belsonic",
+      "ticketStatus": "soldout",
+      "ticketProvider": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.ie/artist/915776?venueId=461698",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-01T19:00:00Z",
+      "city": "Roskilde",
+      "country": "DK",
+      "venue": "Roskilde Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "http://roskil.de/tickets",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-03T19:00:00Z",
+      "city": "Gdynia",
+      "country": "PL",
+      "venue": "Open'er Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://opener.pl/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-05T19:00:00Z",
+      "city": "Werchter",
+      "country": "BE",
+      "venue": "Rock Werchter",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.rockwerchter.be/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-08T19:00:00Z",
+      "city": "Trenčín",
+      "country": "SK",
+      "venue": "Pohoda Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.pohodafestival.sk/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-10T19:00:00Z",
+      "city": "Berlin",
+      "country": "DE",
+      "venue": "Wuhlheide",
+      "ticketStatus": "soldout",
+      "ticketProvider": "eventim",
+      "ticketUrl": "https://www.eventim.de/artist/the-cure/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-11T19:00:00Z",
+      "city": "Berlin",
+      "country": "DE",
+      "venue": "Wuhlheide",
+      "ticketStatus": "soldout",
+      "ticketProvider": "eventim",
+      "ticketUrl": "https://www.eventim.de/artist/the-cure/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-12T19:00:00Z",
+      "city": "Berlin",
+      "country": "DE",
+      "venue": "Wuhlheide",
+      "ticketStatus": "soldout",
+      "ticketProvider": "eventim",
+      "ticketUrl": "https://www.eventim.de/artist/the-cure/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-15T19:00:00Z",
+      "city": "Athens",
+      "country": "GR",
+      "venue": "EJEKT Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.more.com/gr-el/tickets/music/ejekt-festival-2026-the-cure/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-17T19:00:00Z",
+      "city": "Plovdiv",
+      "country": "BG",
+      "venue": "Phill Good Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://ticketstation.bg/en/p5589-phillgood-festival-2026",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-19T19:00:00Z",
+      "city": "Cluj",
+      "country": "RO",
+      "venue": "Electric Castle",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://electriccastle.com/tickets",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-22T19:00:00Z",
+      "city": "Nyon",
+      "country": "CH",
+      "venue": "Paléo Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://yeah.paleo.ch/en/tickets",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-24T19:00:00Z",
+      "city": "Nîmes",
+      "country": "FR",
+      "venue": "Festival de Nîmes",
+      "ticketStatus": "soldout",
+      "ticketProvider": "festival",
       "ticketUrl": "",
-      "livestream": "",
-      "setlist": {
-        "setlistUrl": "https://www.setlist.fm/...",
-        "main": [
-          {"name": "Alone"}, {"name": "Pictures of You"}, {"name": "A Fragile Thing"},
-          {"name": "High"}, {"name": "A Night Like This"}, {"name": "Lovesong"},
-          {"name": "And Nothing Is Forever"}, {"name": "Burn"},
-          {"name": "Fascination Street"},
-          {"name": "Disintegration", "info": "first time since 2011"}
-        ],
-        "encore": [
-          {"name": "Plainsong"}, {"name": "Just Like Heaven"}, {"name": "In Between Days"},
-          {"name": "Friday I'm in Love"}, {"name": "A Forest"}, {"name": "Boys Don't Cry"}
-        ]
-      }
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-25T19:00:00Z",
+      "city": "Nîmes",
+      "country": "FR",
+      "venue": "Festival de Nîmes",
+      "ticketStatus": "soldout",
+      "ticketProvider": "festival",
+      "ticketUrl": "",
+      "livestream": ""
+    },
+    {
+      "date": "2026-07-26T19:00:00Z",
+      "city": "Nîmes",
+      "country": "FR",
+      "venue": "Festival de Nîmes",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://adamconcerts.trium.fr/fr/r/ac5e1dd0f8",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-07T19:00:00Z",
+      "city": "Vilnius",
+      "country": "LT",
+      "venue": "Kalnų Parkas",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://store.bilietai.lt/public/en/event/496851/purchase?pc=thecure26&sp=ltipslt",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-09T19:00:00Z",
+      "city": "Tallinn",
+      "country": "EE",
+      "venue": "Unibet Arena",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.piletilevi.ee/en/tickets/C2QLJFKGYR/the-cure",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-12T19:00:00Z",
+      "city": "Oslo",
+      "country": "NO",
+      "venue": "Øyafestivalen",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://oyafestivalen.seetickets.com/event/oyafestivalen-2026/t-yenparken/3458167?src=cure",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-14T19:00:00Z",
+      "city": "Gothenburg",
+      "country": "SE",
+      "venue": "Way Out West Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.wayoutwest.se/tickets/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-21T19:00:00Z",
+      "city": "Manchester",
+      "country": "UK",
+      "venue": "Wythenshawe Park",
+      "ticketStatus": "soldout",
+      "ticketProvider": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.co.uk/event/1F00633D6C0E2F4F",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-23T19:00:00Z",
+      "city": "Edinburgh",
+      "country": "UK",
+      "venue": "Summer Sessions",
+      "ticketStatus": "soldout",
+      "ticketProvider": "ticketmaster",
+      "ticketUrl": "https://www.ticketmaster.co.uk/event/3600633DA2226DE5",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-28T19:00:00Z",
+      "city": "Bordeaux",
+      "country": "FR",
+      "venue": "Pagaille Festival",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://pagaille-festival.fr/",
+      "livestream": ""
+    },
+    {
+      "date": "2026-08-30T19:00:00Z",
+      "city": "Paris",
+      "country": "FR",
+      "venue": "Rock en Seine",
+      "ticketStatus": "onsale",
+      "ticketProvider": "festival",
+      "ticketUrl": "https://www.rockenseine.com/",
+      "livestream": ""
     }
   ]
 }
