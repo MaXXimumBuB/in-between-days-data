@@ -3,6 +3,62 @@
   "calendarName": "In Between Days — Festival Summer 2026",
   "shows": [
     {
+      "date": "2026-06-05T20:15:00Z",
+      "city": "Barcelona",
+      "country": "ES",
+      "venue": "Primavera Sound",
+      "ticketStatus": "soldout",
+      "ticketProvider": "festival",
+      "ticketUrl": "",
+      "livestream": ""
+    },
+    {
+      "date": "2026-06-07T21:45:00Z",
+      "city": "Porto",
+      "country": "PT",
+      "venue": "North Festival",
+      "ticketStatus": "soldout",
+      "ticketProvider": "festival",
+      "ticketUrl": "",
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/cidade-desportiva-da-maia-maia-portugal-734ef6b5.html",
+        "main": [
+          { "name": "Alone" },
+          { "name": "Pictures of You" },
+          { "name": "High" },
+          { "name": "A Night Like This" },
+          { "name": "Lovesong" },
+          { "name": "The Last Day of Summer" },
+          { "name": "Burn" },
+          { "name": "Fascination Street" },
+          { "name": "alt.end" },
+          { "name": "Push" },
+          { "name": "Mint Car" },
+          { "name": "In Between Days" },
+          { "name": "Just Like Heaven" },
+          { "name": "Treasure", "info": "First live performance since 2013" },
+          { "name": "Want" },
+          { "name": "From the Edge of the Deep Green Sea" },
+          { "name": "Endsong" }
+        ],
+        "encore": [
+          { "name": "In Your House", "info": "First live performance since 2011" },
+          { "name": "M" },
+          { "name": "Play for Today" },
+          { "name": "A Forest" },
+          { "name": "Lullaby" },
+          { "name": "Wrong Number" },
+          { "name": "The Walk" },
+          { "name": "The Lovecats" },
+          { "name": "Friday I'm in Love" },
+          { "name": "Close to Me" },
+          { "name": "Why Can't I Be You?" },
+          { "name": "Boys Don't Cry" }
+        ]
+      }
+    },
+    {
       "date": "2026-06-12T19:00:00Z",
       "city": "Nickelsdorf",
       "country": "AT",
