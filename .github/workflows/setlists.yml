@@ -1,0 +1,36 @@
+name: Update setlists
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # every 6 hours
+  workflow_dispatch: {}         # adds a "Run workflow" button for manual testing
+
+permissions:
+  contents: write               # lets the job commit and push back to the repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch setlists from setlist.fm
+        run: node fetch-setlists.js
+        env:
+          SETLISTFM_KEY: ${{ secrets.SETLISTFM_KEY }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "setlist-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update setlists from setlist.fm"
+            git push
+          fi
