@@ -173,9 +173,7 @@
           },
           {
             "name": "Endsong"
-          }
-        ],
-        "encore": [
+          },
           {
             "name": "In Your House",
             "info": "First live performance since 2011"
@@ -188,7 +186,9 @@
           },
           {
             "name": "A Forest"
-          },
+          }
+        ],
+        "encore": [
           {
             "name": "Lullaby"
           },
