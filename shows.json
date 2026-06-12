@@ -96,6 +96,7 @@
     },
     {
       "date": "2026-06-12T21:00:00Z",
+      "end": "2026-06-12T23:00:00Z",
       "city": "Nickelsdorf",
       "country": "AT",
       "venue": "Nova Rock Festival",
@@ -106,6 +107,7 @@
     },
     {
       "date": "2026-06-14T19:30:00Z",
+      "end": "2026-06-14T21:00:00Z",
       "city": "Florence",
       "country": "IT",
       "venue": "Firenze Rocks",

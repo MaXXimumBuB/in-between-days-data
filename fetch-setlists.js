@@ -11,14 +11,16 @@ const SHOWS_FILE = "shows.json";
 const PAGES = 2;            // most recent ~40 setlists — plenty for a tour
 const UA = "InBetweenDays/1.0 (unofficial Cure fan app)";
 
-// A show counts as "live" from a short lead before stage time until +3.5h.
-// The lead lets the watcher catch the first songs the moment they're logged.
+// A show counts as "live" from a short lead before stage time until its `end`
+// (or +3.5h if no end is given). The lead lets the watcher catch the first songs.
 const LEAD_MS   = 20 * 60 * 1000;
 const WINDOW_MS = 3.5 * 3600 * 1000;
 function isShowLive(showsArr, now) {
   return showsArr.some(s => {
-    const t = Date.parse(s.date);
-    return Number.isFinite(t) && now >= t - LEAD_MS && now < t + WINDOW_MS;
+    const start = Date.parse(s.date);
+    if (!Number.isFinite(start)) return false;
+    const end = s.end ? Date.parse(s.end) : start + WINDOW_MS;
+    return now >= start - LEAD_MS && now < end;
   });
 }
 
