@@ -2,11 +2,16 @@ name: Update setlists
 
 on:
   schedule:
-    - cron: "0 */6 * * *"     # every 6 hours
-  workflow_dispatch: {}         # adds a "Run workflow" button for manual testing
+    - cron: "*/15 * * * *"     # every 15 min: backfills final setlists and starts a live watch
+  workflow_dispatch: {}         # "Run workflow" button — use this to start a watch during a show
 
 permissions:
   contents: write               # lets the job commit and push back to the repo
+
+# never run two of these at once; a live watch can run for hours, so queue (don't overlap)
+concurrency:
+  group: setlists
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -18,19 +23,31 @@ jobs:
         with:
           node-version: 24
 
-      - name: Fetch setlists from setlist.fm
-        run: node fetch-setlists.js
+      - name: Fetch, and keep watching while a show is live
         env:
           SETLISTFM_KEY: ${{ secrets.SETLISTFM_KEY }}
-
-      - name: Commit updated data
         run: |
           git config user.name "setlist-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Update setlists from setlist.fm"
-            git push
-          fi
+
+          # Up to ~80 cycles of ~2.5 min ≈ 3.3h, covering a 3.5h show window
+          # within one run (a single job can run up to 6h). One pass always runs
+          # (the backfill); the loop only continues while a show is live.
+          for i in $(seq 1 80); do
+            node fetch-setlists.js || echo "fetch error on cycle $i (continuing)"
+
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -m "Update setlists from setlist.fm"
+              git pull --rebase --autostash || true
+              git push
+            fi
+
+            if node fetch-setlists.js --check-live; then
+              echo "Show live — next pull in 150s (cycle $i)"
+              sleep 150
+            else
+              echo "No show live — finishing run."
+              break
+            fi
+          done

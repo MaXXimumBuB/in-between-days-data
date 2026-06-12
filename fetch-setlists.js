@@ -11,9 +11,15 @@ const SHOWS_FILE = "shows.json";
 const PAGES = 2;            // most recent ~40 setlists — plenty for a tour
 const UA = "InBetweenDays/1.0 (unofficial Cure fan app)";
 
-if (!API_KEY) {
-  console.error("Missing SETLISTFM_KEY environment variable.");
-  process.exit(1);
+// A show counts as "live" from a short lead before stage time until +3.5h.
+// The lead lets the watcher catch the first songs the moment they're logged.
+const LEAD_MS   = 20 * 60 * 1000;
+const WINDOW_MS = 3.5 * 3600 * 1000;
+function isShowLive(showsArr, now) {
+  return showsArr.some(s => {
+    const t = Date.parse(s.date);
+    return Number.isFinite(t) && now >= t - LEAD_MS && now < t + WINDOW_MS;
+  });
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -52,7 +58,11 @@ async function fetchPage(page) {
   return arr(data.setlist);
 }
 
-async function main() {
+async function runOnce() {
+  if (!API_KEY) {
+    console.error("Missing SETLISTFM_KEY environment variable.");
+    process.exit(1);
+  }
   const shows = JSON.parse(fs.readFileSync(SHOWS_FILE, "utf8"));
 
   // collect recent setlists keyed by ISO date
@@ -88,4 +98,13 @@ async function main() {
   console.log(`Updated ${changed} show(s) with setlists.`);
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+// `--check-live` exits 0 when a show is currently live, non-zero otherwise.
+// The workflow uses it to decide whether to keep watching. No API key needed.
+if (process.argv.includes("--check-live")) {
+  const shows = JSON.parse(fs.readFileSync(SHOWS_FILE, "utf8"));
+  const live = isShowLive(arr(shows.shows), Date.now());
+  console.log(live ? "A show is live." : "No show live.");
+  process.exit(live ? 0 : 3);
+} else {
+  runOnce().catch(err => { console.error(err); process.exit(1); });
+}
