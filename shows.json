@@ -56,7 +56,7 @@
       "ticketStatus": "soldout",
       "ticketProvider": "festival",
       "ticketUrl": "",
-      "livestream": "https://www.youtube.com/watch?v=nvHGa6fDhUs&list=RDnvHGa6fDhUs&start_radio=1",
+      "livestream": "",
       "setlist": {
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/cidade-desportiva-da-maia-maia-portugal-734ef6b5.html",
         "main": [
@@ -142,7 +142,7 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.firenzerocks.it/",
-      "livestream": ""
+      "livestream": "https://www.youtube.com/watch?v=nvHGa6fDhUs&list=RDnvHGa6fDhUs&start_radio=1"
     },
     {
       "date": "2026-06-20T19:00:00Z",
