@@ -12,39 +12,101 @@
       "ticketUrl": "",
       "livestream": "",
       "setlist": {
-        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/parc-del-forum-estrella-damm-barcelona-spain-b4ee5fa.html",
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/estrella-damm-barcelona-spain-b4ee5fa.html",
         "main": [
-          { "name": "Alone" },
-          { "name": "Pictures of You" },
-          { "name": "High" },
-          { "name": "A Night Like This" },
-          { "name": "Lovesong" },
-          { "name": "2 Late", "info": "First live performance since 2019" },
-          { "name": "The Last Day of Summer" },
-          { "name": "Burn" },
-          { "name": "Fascination Street" },
-          { "name": "alt.end", "info": "First live performance since 2018" },
-          { "name": "The Walk" },
-          { "name": "Mint Car", "info": "First live performance since 2016" },
-          { "name": "In Between Days" },
-          { "name": "Just Like Heaven" },
-          { "name": "Trust" },
-          { "name": "Push" },
-          { "name": "Play for Today" },
-          { "name": "A Forest" },
-          { "name": "From the Edge of the Deep Green Sea" },
-          { "name": "Endsong" }
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "2 Late",
+            "info": "First live performance since 2019"
+          },
+          {
+            "name": "The Last Day of Summer"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "alt.end",
+            "info": "First live performance since 2018"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "Mint Car",
+            "info": "First live performance since 2016"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Endsong"
+          }
         ],
         "encore": [
-          { "name": "Lullaby" },
-          { "name": "Hot Hot Hot!!!" },
-          { "name": "Wrong Number", "info": "First live performance since 2019" },
-          { "name": "Let's Go to Bed" },
-          { "name": "The Lovecats" },
-          { "name": "Friday I'm in Love" },
-          { "name": "Close to Me" },
-          { "name": "Why Can't I Be You?" },
-          { "name": "Boys Don't Cry" }
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Hot Hot Hot!!!"
+          },
+          {
+            "name": "Wrong Number",
+            "info": "First live performance since 2019"
+          },
+          {
+            "name": "Let's Go to Bed"
+          },
+          {
+            "name": "The Lovecats"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
         ]
       }
     },
@@ -60,37 +122,97 @@
       "setlist": {
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/cidade-desportiva-da-maia-maia-portugal-734ef6b5.html",
         "main": [
-          { "name": "Alone" },
-          { "name": "Pictures of You" },
-          { "name": "High" },
-          { "name": "A Night Like This" },
-          { "name": "Lovesong" },
-          { "name": "The Last Day of Summer" },
-          { "name": "Burn" },
-          { "name": "Fascination Street" },
-          { "name": "alt.end" },
-          { "name": "Push" },
-          { "name": "Mint Car" },
-          { "name": "In Between Days" },
-          { "name": "Just Like Heaven" },
-          { "name": "Treasure", "info": "First live performance since 2013" },
-          { "name": "Want" },
-          { "name": "From the Edge of the Deep Green Sea" },
-          { "name": "Endsong" }
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "The Last Day of Summer"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "alt.end"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "Mint Car"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Treasure",
+            "info": "First live performance since 2013"
+          },
+          {
+            "name": "Want"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Endsong"
+          },
+          {
+            "name": "In Your House",
+            "info": "First live performance since 2011"
+          },
+          {
+            "name": "M"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          }
         ],
         "encore": [
-          { "name": "In Your House", "info": "First live performance since 2011" },
-          { "name": "M" },
-          { "name": "Play for Today" },
-          { "name": "A Forest" },
-          { "name": "Lullaby" },
-          { "name": "Wrong Number" },
-          { "name": "The Walk" },
-          { "name": "The Lovecats" },
-          { "name": "Friday I'm in Love" },
-          { "name": "Close to Me" },
-          { "name": "Why Can't I Be You?" },
-          { "name": "Boys Don't Cry" }
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Wrong Number"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "The Lovecats"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
         ]
       }
     },
@@ -103,7 +225,83 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.novarock.at/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/blue-stage-nickelsdorf-austria-5341f309.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Shake Dog Shake",
+            "info": "tour debut"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Wrong Number"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "One Hundred Years",
+            "info": "tour debut"
+          },
+          {
+            "name": "Endsong"
+          }
+        ],
+        "encore": [
+          {
+            "name": "Plainsong",
+            "info": "tour debut"
+          },
+          {
+            "name": "Prayers for Rain",
+            "info": "Tour debut"
+          },
+          {
+            "name": "Disintegration",
+            "info": "Tour debut"
+          },
+          {
+            "name": "Three Imaginary Boys",
+            "info": "Tour debut"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
+        ]
+      }
     },
     {
       "date": "2026-06-14T19:30:00Z",
