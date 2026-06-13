@@ -11,15 +11,18 @@ const SHOWS_FILE = "shows.json";
 const PAGES = 2;            // most recent ~40 setlists — plenty for a tour
 const UA = "InBetweenDays/1.0 (unofficial Cure fan app)";
 
-// A show counts as "live" from a short lead before stage time until its `end`
-// (or +3.5h if no end is given). The lead lets the watcher catch the first songs.
+// A show counts as "live" for the watcher from a short lead before stage time until
+// ~1h after its `end` (or +3.5h if no end is given). The post-show tail catches the
+// setlist, which fans usually finish entering within an hour of the encore. (The app's
+// own green-dot window is just [start, end] — this wider window is only for fetching.)
 const LEAD_MS   = 20 * 60 * 1000;
+const POST_MS   = 60 * 60 * 1000;
 const WINDOW_MS = 3.5 * 3600 * 1000;
 function isShowLive(showsArr, now) {
   return showsArr.some(s => {
     const start = Date.parse(s.date);
     if (!Number.isFinite(start)) return false;
-    const end = s.end ? Date.parse(s.end) : start + WINDOW_MS;
+    const end = (s.end ? Date.parse(s.end) : start + WINDOW_MS) + POST_MS;
     return now >= start - LEAD_MS && now < end;
   });
 }
