@@ -312,7 +312,16 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.firenzerocks.it/",
-      "livestream": "https://www.youtube.com/watch?v=nvHGa6fDhUs&list=RDnvHGa6fDhUs&start_radio=1"
+      "livestream": "https://www.youtube.com/watch?v=nvHGa6fDhUs&list=RDnvHGa6fDhUs&start_radio=1",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/ippodromo-del-visarno-florence-italy-6b4c2eda.html",
+        "main": [
+          {
+            "name": "Alone"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-06-20T19:00:00Z",
