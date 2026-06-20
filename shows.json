@@ -418,7 +418,19 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.pinkpop.nl/en/tickets/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/south-stage-landgraaf-netherlands-634c9a4b.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-06-21T19:00:00Z",
