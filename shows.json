@@ -505,7 +505,16 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://isleofwightfestival.com/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/main-stage-newport-england-13412165.html",
+        "main": [
+          {
+            "name": "Alone"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-06-24T19:00:00Z",
