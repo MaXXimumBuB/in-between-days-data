@@ -614,6 +614,9 @@
             "name": "Pictures of You"
           },
           {
+            "name": "High"
+          },
+          {
             "name": "A Night Like This"
           },
           {
@@ -627,6 +630,9 @@
           },
           {
             "name": "Secrets"
+          },
+          {
+            "name": "Push"
           }
         ],
         "encore": []
