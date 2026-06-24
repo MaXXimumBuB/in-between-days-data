@@ -603,7 +603,28 @@
       "ticketStatus": "onsale",
       "ticketProvider": "ticketmaster",
       "ticketUrl": "https://www.ticketmaster.co.uk/event/1F006348C8B487DA",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/blackweir-fields-cardiff-wales-5b4ea354.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "The Last Day of Summer"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-06-26T19:00:00Z",
