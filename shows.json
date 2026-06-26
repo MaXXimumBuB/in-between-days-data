@@ -709,7 +709,7 @@
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/marlay-park-dublin-ireland-3411567.html",
         "main": [
           {
-            "name": "Alone"
+            "name": "Plainsong"
           },
           {
             "name": "Pictures of You"
@@ -724,13 +724,16 @@
             "name": "Lovesong"
           },
           {
-            "name": "And Nothing Is Forever"
+            "name": "Trust"
           },
           {
             "name": "Burn"
           },
           {
             "name": "Fascination Street"
+          },
+          {
+            "name": "alt.end"
           },
           {
             "name": "Push"
@@ -740,67 +743,9 @@
           },
           {
             "name": "Just Like Heaven"
-          },
-          {
-            "name": "At Night"
-          },
-          {
-            "name": "Play for Today"
-          },
-          {
-            "name": "A Forest"
-          },
-          {
-            "name": "Shake Dog Shake"
-          },
-          {
-            "name": "From the Edge of the Deep Green Sea"
-          },
-          {
-            "name": "Endsong"
-          },
-          {
-            "name": "Want"
-          },
-          {
-            "name": "Charlotte Sometimes"
-          },
-          {
-            "name": "Plainsong"
-          },
-          {
-            "name": "Disintegration"
-          },
-          {
-            "name": "The Last Day of Summer"
-          },
-          {
-            "name": "Wrong Number"
-          },
-          {
-            "name": "Lullaby"
           }
         ],
-        "encore": [
-          {
-            "name": "Hot Hot Hot!!!"
-          },
-          {
-            "name": "The Walk"
-          },
-          {
-            "name": "Friday I'm in Love"
-          },
-          {
-            "name": "Close to Me"
-          },
-          {
-            "name": "Why Can't I Be You?"
-          },
-          {
-            "name": "Boys Don't Cry"
-          }
-        ]
+        "encore": []
       }
     },
     {
