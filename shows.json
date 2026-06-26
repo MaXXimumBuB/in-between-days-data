@@ -733,9 +733,6 @@
             "name": "Fascination Street"
           },
           {
-            "name": "alt.end"
-          },
-          {
             "name": "Push"
           },
           {
@@ -757,9 +754,6 @@
             "name": "A Forest"
           },
           {
-            "name": "A Forest"
-          },
-          {
             "name": "From the Edge of the Deep Green Sea"
           },
           {
@@ -769,7 +763,11 @@
             "name": "Disintegration"
           }
         ],
-        "encore": []
+        "encore": [
+          {
+            "name": "Lullaby"
+          }
+        ]
       }
     },
     {
