@@ -835,7 +835,7 @@
           },
           {
             "name": "Never Enough",
-            "info": "First live performance since 2019"
+            "info": "Tour debut, First live performance since 2019"
           },
           {
             "name": "Push"
@@ -854,7 +854,7 @@
           },
           {
             "name": "Cold",
-            "info": "Tour debut"
+            "info": "Tour debut, First live performance since 2023"
           },
           {
             "name": "From the Edge of the Deep Green Sea"
@@ -869,6 +869,9 @@
         "encore": [
           {
             "name": "Lullaby"
+          },
+          {
+            "name": "Wrong Number"
           }
         ]
       }
