@@ -805,7 +805,16 @@
       "ticketStatus": "soldout",
       "ticketProvider": "ticketmaster",
       "ticketUrl": "https://www.ticketmaster.ie/artist/915776?venueId=461698",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/ormeau-park-belfast-northern-ireland-13411565.html",
+        "main": [
+          {
+            "name": "Alone"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-01T19:00:00Z",
