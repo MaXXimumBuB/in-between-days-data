@@ -834,7 +834,14 @@
             "name": "Fascination Street"
           },
           {
-            "name": "Never Enough"
+            "name": "Never Enough",
+            "info": "First live performance since 2019"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
           }
         ],
         "encore": []
