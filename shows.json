@@ -910,10 +910,23 @@
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/dyrskuepladsen-roskilde-denmark-1b4fb924.html",
         "main": [
           {
-            "name": "Plainsong"
+            "name": "Plainsong",
+            "info": "Simon plays the first notes of Alone by mistake"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
           },
           {
             "name": "A Night Like This"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Burn"
           },
           {
             "name": "Fascination Street"
@@ -922,20 +935,67 @@
             "name": "Never Enough"
           },
           {
-            "name": "The Last Day of Summer"
+            "name": "alt.end"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "The Last Day of Summer",
+            "info": "Roger plays wrong notes at the beginning"
           },
           {
             "name": "A Strange Day",
-            "info": "Tour debut"
+            "info": "Tour debut. Jason plays a wrong fill during the solo section"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
           },
           {
             "name": "From the Edge of the Deep Green Sea"
           },
           {
-            "name": "Lullaby"
+            "name": "Disintegration"
           }
         ],
-        "encore": []
+        "encore": [
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Wrong Number"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "The Lovecats"
+          },
+          {
+            "name": "Let's Go to Bed"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
+        ]
       }
     },
     {
