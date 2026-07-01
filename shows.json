@@ -905,7 +905,28 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "http://roskil.de/tickets",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/dyrskuepladsen-roskilde-denmark-1b4fb924.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "Never Enough"
+          },
+          {
+            "name": "The Last Day of Summer"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-03T19:00:00Z",
