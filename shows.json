@@ -910,8 +910,7 @@
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/dyrskuepladsen-roskilde-denmark-1b4fb924.html",
         "main": [
           {
-            "name": "Plainsong",
-            "info": "Simon plays the first notes of Alone by mistake"
+            "name": "Plainsong"
           },
           {
             "name": "Pictures of You"
@@ -947,12 +946,11 @@
             "name": "Just Like Heaven"
           },
           {
-            "name": "The Last Day of Summer",
-            "info": "Roger plays wrong notes at the beginning"
+            "name": "The Last Day of Summer"
           },
           {
             "name": "A Strange Day",
-            "info": "Tour debut. Jason plays a wrong fill during the solo section"
+            "info": "Tour Debut"
           },
           {
             "name": "Play for Today"
