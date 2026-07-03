@@ -1004,7 +1004,19 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://opener.pl/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/lotnisko-gdynia-kosakowo-gdynia-poland-53410f29.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-05T19:00:00Z",
