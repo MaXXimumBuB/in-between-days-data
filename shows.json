@@ -1164,7 +1164,11 @@
             "name": "Disintegration"
           }
         ],
-        "encore": []
+        "encore": [
+          {
+            "name": "Lullaby"
+          }
+        ]
       }
     },
     {
