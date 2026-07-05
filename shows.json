@@ -1099,7 +1099,16 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.rockwerchter.be/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/main-stage-werchter-belgium-2341407f.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-08T19:00:00Z",
