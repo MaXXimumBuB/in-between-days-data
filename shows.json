@@ -1203,7 +1203,34 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.pohodafestival.sk/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/letisko-trenin-slovakia-3b4e58c0.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Burn"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-10T19:00:00Z",
