@@ -1368,10 +1368,19 @@
         "encore": [
           {
             "name": "Lullaby",
-            "info": "„It‘s been a long and difficult day today …. This is for Simon“"
+            "info": "Robert Smith dedicated it to Simon Gallup"
           },
           {
             "name": "The Walk"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
           }
         ]
       }
