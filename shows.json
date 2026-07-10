@@ -1346,10 +1346,17 @@
             "name": "A Forest"
           },
           {
-            "name": "Primary"
+            "name": "Primary",
+            "info": "Tour debut"
           },
           {
             "name": "Shake Dog Shake"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Prayers for Rain"
           }
         ],
         "encore": []
