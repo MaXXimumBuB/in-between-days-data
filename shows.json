@@ -1305,7 +1305,22 @@
       "ticketStatus": "soldout",
       "ticketProvider": "eventim",
       "ticketUrl": "https://www.eventim.de/artist/the-cure/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/parkbuhne-wuhlheide-berlin-germany-43414327.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-11T19:00:00Z",
