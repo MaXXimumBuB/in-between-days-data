@@ -1402,7 +1402,64 @@
       "ticketStatus": "soldout",
       "ticketProvider": "eventim",
       "ticketUrl": "https://www.eventim.de/artist/the-cure/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/parkbuhne-wuhlheide-berlin-germany-4b414326.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "Never Enough"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "The Last Day of Summer"
+          },
+          {
+            "name": "A Strange Day"
+          },
+          {
+            "name": "One Hundred Years"
+          },
+          {
+            "name": "Cold"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-12T19:00:00Z",
