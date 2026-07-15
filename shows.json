@@ -1604,7 +1604,34 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.more.com/gr-el/tickets/music/ejekt-festival-2026-the-cure/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/olympic-complex-athens-greece-634e52af.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Catch"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-17T19:00:00Z",
