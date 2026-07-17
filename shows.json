@@ -1702,7 +1702,16 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://ticketstation.bg/en/p5589-phillgood-festival-2026",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/rowing-canal-plovdiv-bulgaria-334ed829.html",
+        "main": [
+          {
+            "name": "Alone"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-19T19:00:00Z",
