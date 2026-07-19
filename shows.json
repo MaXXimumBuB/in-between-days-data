@@ -1839,6 +1839,9 @@
           },
           {
             "name": "Secrets"
+          },
+          {
+            "name": "Play for Today"
           }
         ],
         "encore": []
