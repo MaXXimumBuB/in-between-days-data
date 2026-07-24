@@ -2039,13 +2039,16 @@
         ],
         "encore": [
           {
-            "name": "It Can Never Be the Same"
+            "name": "It Can Never Be the Same",
+            "info": "tour debut"
           },
           {
-            "name": "Faith"
+            "name": "Faith",
+            "info": "tour debut"
           },
           {
-            "name": "A Letter to Elise"
+            "name": "A Letter to Elise",
+            "info": "first performance since 2016"
           },
           {
             "name": "Lullaby"
