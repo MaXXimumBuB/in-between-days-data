@@ -1980,6 +1980,9 @@
         "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/arenes-de-nimes-nimes-france-234c6813.html",
         "main": [
           {
+            "name": "More Alone"
+          },
+          {
             "name": "Alone"
           },
           {
@@ -2019,7 +2022,8 @@
             "name": "Want"
           },
           {
-            "name": "A Night Like This"
+            "name": "A Night Like This",
+            "info": "With a live Saxophone"
           },
           {
             "name": "Secrets"
@@ -2058,6 +2062,21 @@
           },
           {
             "name": "The Walk"
+          },
+          {
+            "name": "The Lovecats"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          },
+          {
+            "name": "Boys Don't Cry"
           }
         ]
       }
