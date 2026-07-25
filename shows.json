@@ -2089,7 +2089,19 @@
       "ticketStatus": "soldout",
       "ticketProvider": "festival",
       "ticketUrl": "",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/arenes-de-nimes-nimes-france-334c6811.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-07-26T19:00:00Z",
