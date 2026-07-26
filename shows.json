@@ -2200,7 +2200,77 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://adamconcerts.trium.fr/fr/r/ac5e1dd0f8",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/arenes-de-nimes-nimes-france-234d2cc3.html",
+        "main": [
+          {
+            "name": "More Alone"
+          },
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Catch"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Three Imaginary Boys"
+          },
+          {
+            "name": "Charlotte Sometimes"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "Shake Dog Shake"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Endsong"
+          }
+        ],
+        "encore": [
+          {
+            "name": "It Can Never Be the Same"
+          }
+        ]
+      }
     },
     {
       "date": "2026-08-07T19:00:00Z",
