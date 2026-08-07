@@ -2315,7 +2315,19 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://store.bilietai.lt/public/en/event/496851/purchase?pc=thecure26&sp=ltipslt",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/kaln-parkas-vilnius-lithuania-6349122f.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-08-09T19:00:00Z",
