@@ -2371,7 +2371,17 @@
             "name": "Endsong"
           }
         ],
-        "encore": []
+        "encore": [
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Hot Hot Hot!!!"
+          },
+          {
+            "name": "Wrong Number"
+          }
+        ]
       }
     },
     {
