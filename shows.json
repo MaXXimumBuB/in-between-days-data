@@ -2410,7 +2410,70 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.piletilevi.ee/en/tickets/C2QLJFKGYR/the-cure",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/unibet-arena-tallinn-estonia-7349122d.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "Never Enough"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Treasure"
+          },
+          {
+            "name": "alt.end"
+          },
+          {
+            "name": "A Strange Day"
+          },
+          {
+            "name": "Secrets"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Endsong"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-08-12T19:00:00Z",
