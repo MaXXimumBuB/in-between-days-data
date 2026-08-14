@@ -2635,13 +2635,17 @@
             "name": "Fascination Street"
           },
           {
-            "name": "A Night Like This"
+            "name": "A Night Like This",
+            "info": "With added saxophone played by Jason Cooper's son Gabriel"
           },
           {
             "name": "Secrets"
           },
           {
             "name": "Push"
+          },
+          {
+            "name": "In Between Days"
           }
         ],
         "encore": []
