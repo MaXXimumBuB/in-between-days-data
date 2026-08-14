@@ -2612,7 +2612,16 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://www.wayoutwest.se/tickets/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/slottsskogen-gothenburg-sweden-434c2373.html",
+        "main": [
+          {
+            "name": "Alone"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-08-21T19:00:00Z",
