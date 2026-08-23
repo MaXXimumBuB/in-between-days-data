@@ -2799,7 +2799,65 @@
       "ticketStatus": "soldout",
       "ticketProvider": "ticketmaster",
       "ticketUrl": "https://www.ticketmaster.co.uk/event/3600633DA2226DE5",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/royal-highland-centre-showground-ingliston-scotland-1b411550.html",
+        "main": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Secrets"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Three Imaginary Boys"
+          },
+          {
+            "name": "Charlotte Sometimes"
+          },
+          {
+            "name": "A Night Like This",
+            "info": "With Gabriel Cooper on Sax"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Prayers for Rain"
+          },
+          {
+            "name": "Disintegration"
+          }
+        ],
+        "encore": []
+      }
     },
     {
       "date": "2026-08-28T19:00:00Z",
