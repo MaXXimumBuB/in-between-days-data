@@ -2902,7 +2902,98 @@
       "ticketStatus": "onsale",
       "ticketProvider": "festival",
       "ticketUrl": "https://pagaille-festival.fr/",
-      "livestream": ""
+      "livestream": "",
+      "setlist": {
+        "setlistUrl": "https://www.setlist.fm/setlist/the-cure/2026/place-des-quinconces-bordeaux-france-5b763ba8.html",
+        "main": [
+          {
+            "name": "Alone"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Burn"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "alt.end"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Treasure"
+          },
+          {
+            "name": "Want"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Secrets"
+          },
+          {
+            "name": "Play for Today"
+          },
+          {
+            "name": "A Forest"
+          },
+          {
+            "name": "Shake Dog Shake"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Endsong"
+          }
+        ],
+        "encore": [
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Wrong Number"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "Mint Car"
+          },
+          {
+            "name": "The Lovecats"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
+        ]
+      }
     },
     {
       "date": "2026-08-30T19:00:00Z",
