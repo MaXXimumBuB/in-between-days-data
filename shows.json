@@ -3065,7 +3065,11 @@
             "name": "Endsong"
           }
         ],
-        "encore": []
+        "encore": [
+          {
+            "name": "Lullaby"
+          }
+        ]
       }
     }
   ]
